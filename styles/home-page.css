@@ -1,0 +1,125 @@
+.home1 {
+  display: flex;
+  padding-top: 40px;
+}
+
+.home1-left {
+  /* display: inline-block; */
+  font-family: "inner", sans-serif;
+  background-color: #E7FAFE;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 620px;
+}
+
+.home1-right img {
+  width: 660px;
+  height: 640px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: block;
+}
+
+.home1-left h1 {
+  line-height: 100%;
+  width: 600px;
+  font-size: 64px;
+  margin-bottom: 24px;
+}
+
+.home1-left p {
+  color: #00000099;
+  width: 520px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.list-homeleft {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  gap: 13px;
+  padding: 11px 20px 10px 20px;
+  margin-bottom: 32px;
+}
+
+.profile-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.small-btns {
+  margin-bottom: 104px;
+}
+
+.profile-john {
+  display: flex;
+  align-items: center;
+  width: 165px;
+}
+
+button.btn-black {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  background-color: black;
+  color: white;
+}
+
+.btn-sky-blue {
+  background-color: #E7FAFE;
+  font-size: 16px;
+}
+
+.categories-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+section.categories {
+  padding-top: 160px;
+}
+
+.categories-bottom {
+  padding-top: 80px;
+  display: flex;
+  gap: 40px;
+}
+
+.category-card {
+  width: 180px;
+  /* border: 1px solid black; */
+  border-radius: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+  background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
+}
+
+.category-card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+.category-card p {}
+
+/* recipes css */
+
+.recipes {
+  padding: 183px;
+  text-align: center;
+}
+.recipes .common-title{
+  margin-bottom: 24px;
+}
+.recipes .common-p{
+  margin-bottom: 96px;
+  width: 690px;
+}
